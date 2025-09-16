@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sam Merrell – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>👋 Hi, I'm Sam Merrell</h1>
+    <p>Technical Creative · Data · UI/UX · Brewing Enthusiast</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/sam-merrell" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <!-- Projects -->
+    <section id="projects">
+      <h2>🚀 Projects</h2>
+
+      <article class="card">
+        <h3>Brewery Inventory Tracker (Python + SQLite)</h3>
+        <p>Track grains, hops, yeast, and brewing supplies with a clean schema + CLI.</p>
+        <a class="btn" href="https://github.com/sam-merrell/beer-inventory-tracker" target="_blank">View Repo</a>
+      </article>
+
+      <article class="card">
+        <h3>UX Case Study: Brewday Mobile Flow</h3>
+        <p>From research → wireframes → prototype. Designed for new brewers.</p>
+        <a class="btn" href="https://github.com/sam-merrell/ux-case-study-brewday-flow" target="_blank">View Repo</a>
+      </article>
+
+      <article class="card">
+        <h3>Python ETL: CSV → SQLite</h3>
+        <p>Simple ETL pipeline: clean CSV data, load into SQLite, visualize results.</p>
+        <a class="btn" href="https://github.com/sam-merrell/python-etl-csv-sqlite" target="_blank">View Repo</a>
+      </article>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>👨‍💻 About Me</h2>
+      <p>
+        I’m a technical and creative professional with 12+ years in IT/networking and a passion
+        for data, UI/UX design, and brewing. I enjoy building practical tools, clear documentation,
+        and user-centered experiences.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>📫 Contact</h2>
+      <p>Email: <a href="mailto:sam@example.com">sam@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/sam-merrell" target="_blank">@sam-merrell</a></p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <small>© <span id="y"></span> Sam Merrell</small>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
