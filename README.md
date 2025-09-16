@@ -7,9 +7,9 @@ I’m a technical creative focused on **data (SQL/NoSQL)**, **Python Coding**, a
 - 🧰 Tech: Microsoft SQL Server, Python, Bash, Snowflake Warehouse
 - 🌱 Learning: SQL data modeling, data warhousing models, automation with code.
 
-## Selected Projects
+## Projects
 - **Brewery Inventory DB (Postgres)** — schema, queries, ETL, dashboard
-- **UX Case Study: Brewday Mobile Flow** — research → wireframes → prototype → heuristics
+- **Beer Recipe Calculator** — Python - Math Forumals - User Input/Output
 - **Simple ETL in Python** — CSV → cleaned SQLite + charts
 
 ## Skills & Tools
