@@ -1,0 +1,67 @@
+:root {
+  --max-width: 900px;
+  --primary: #333;
+  --accent: #d57c00; /* copper/amber vibe */
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--primary);
+  background: #fdfaf6; /* warm paper-like */
+}
+
+.wrap {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem;
+}
+
+header {
+  background: #fff8f0;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+header h1 { margin: 0; font-size: 2rem; }
+header nav { margin-top: 1rem; }
+header nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+}
+header nav a:hover { color: var(--accent); }
+
+h2 { margin-top: 2rem; font-size: 1.5rem; }
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: .5rem;
+  padding: .5rem .9rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.btn:hover { background: #b86400; }
+
+footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 1rem;
+  background: #fafafa;
+  margin-top: 2rem;
+}
