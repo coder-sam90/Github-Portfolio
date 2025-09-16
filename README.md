@@ -13,6 +13,6 @@ I’m a technical creative focused on **data (SQL/NoSQL)**, **Python Coding**, a
 - **Simple ETL in Python** — CSV → cleaned SQLite + charts
 
 ## Skills & Tools
-SQL · Cybersecurity · Suricata · Python · Bash · Git · Network switching and routing · Linux · Problem-solving and debugging
+SQL · Cybersecurity · IDS/IPS · Python · Bash · Git · Network switching and routing · Linux · Problem-solving and debugging
 
 > I like building practical tools and exploring new technologies. I take my creative passion for beer brewing and I combine my investigative nature to solve issues that I come across. 
