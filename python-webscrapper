@@ -1,0 +1,37 @@
+#Python web scrapper for xkcd.com
+import requests
+import bs4
+
+base_url = "https://xkcd.com"
+url = "https://xkcd.com/1"
+
+while "#" not in url:
+
+
+  #requesting the webpage
+
+  response = requests.get(url)
+  #parse the web page to make it easy to use
+  soup = bs4.BeautifulSoup(response.content, "html.parser")
+
+  #Find the URL of the img we want
+  #We are finding anything in the code with the tag ID of comic and starting at index 0.
+  img_element = soup.select("#comic img")[0]
+  img_src = img_element["src"]
+  img_src = "http:" + str(img_src)
+
+  #get the name of the file for organization later
+  img_name = img_src.split("/")[-1]
+
+  #Download the comic
+  response = requests.get(img_src)
+
+  #pulling next anchor tag and next href
+  with open(img_name, 'wb') as file:
+    file.write(response.content)
+
+  #Find the next button and then find the next in href in line
+  next_a = soup.select(".comicNav a[rel='next']")[0]
+  next_href = next_a["href"][0]
+  url = base_url + (str(next_href))
+  
