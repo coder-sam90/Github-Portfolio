@@ -3,7 +3,6 @@
 I’m a technical creative focused on **data (SQL/NoSQL)**, **Python Coding**, and **Home(beer)brewing tools**.
 
 - 🔭 Current projects: Portfolio SQL case studies, small python scripts, and “Hanging Hat Brewing” utilities.
-- 🎙 Podcast experiment: **Pitch Rate Podcast**
 - 🧰 Tech: Microsoft SQL Server, Python, Bash, Snowflake Warehouse
 - 🌱 Learning: SQL data modeling, data warhousing models, automation with code.
 
