@@ -8,7 +8,7 @@ I’m a technical creative focused on **data (SQL/NoSQL)**, **Python Coding**, a
 - 🌱 Learning: SQL data modeling, data warhousing models, automation with code.
 
 ## Projects
-- **Brewery Inventory DB (Postgres)** — schema, queries, ETL, dashboard
+- **Beer rating - SQLITE3 ** — schema, queries, views
 - **Beer Recipe Calculator** — Python - Math Forumals - User Input/Output
 - **Simple ETL in Python** — CSV → cleaned SQLite + charts
 
